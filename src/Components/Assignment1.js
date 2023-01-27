@@ -37,9 +37,8 @@ const Assignment1 = () => {
   return (
     <>
     <Navbar/>
-    <p></p>
     <div className="d-flex justify-content-center">
-      <form className="m-5 p-5">
+      <form className="m-1 p-1">
         <div className="card card-container" >
           <div className="mb-3">
             <label className="form-label">Number 1</label>

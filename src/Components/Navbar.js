@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import logo from '../Logo.jpeg';
 
 const Navbar = () => {
+
     return (
-        <>
-        <header>
-            <nav className="navbar fixed-top ">
+        <><header>
+            <nav className="navbar ">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         <img src={logo} alt="logo" height={125} />
